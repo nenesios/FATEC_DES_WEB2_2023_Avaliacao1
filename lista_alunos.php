@@ -33,7 +33,7 @@ if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true) {
     }
 } else {
     // Redirecionar para a página de login se o usuário não estiver logado
-    header("Location: login.php");
+    header("Location: cadastro.php");
     exit;
 }
 ?>
